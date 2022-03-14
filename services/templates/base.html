@@ -1,0 +1,18 @@
+{% load static %}
+
+<head><meta charset="utf-8">
+{% block content %}
+{% endblock content %}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BlueSky</title>
+      <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="{% static 'css/style.css' %}">
+      <link rel="stylesheet" href="{% static 'css/fontawesome.min.css' %}">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+<body>
+{% block js %}
+ <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+{% endblock js %}
+</body>
