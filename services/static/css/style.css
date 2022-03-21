@@ -100,7 +100,7 @@ nav.navbar {
     width: 100%;
     z-index: 1000;
     font-family: 'Roboto', sans-serif;
-    background: #0c2326;
+    background: #08191b;
     min-height: 95px;
 }
 
@@ -114,12 +114,13 @@ nav.navbar ul li {
 }
 
 nav.navbar .search-container {
+    width: auto;
     position: relative;
 }
 
 nav.navbar form {
     padding: 5px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     width: 260px;
     display: none;
